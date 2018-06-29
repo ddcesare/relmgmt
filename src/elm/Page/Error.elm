@@ -1,16 +1,14 @@
-module Page.Error exposing (view, pageLoadError, PageLoadError)
+module Page.Error exposing (PageLoadError, pageLoadError, view)
 
 {-| The page that renders when there was an error trying to load another page,
 for example a Page Not Found error.
 -}
 
-import Html exposing (Html, main_, h1, div, img, text, p)
-import Html.Attributes exposing (class, tabindex, id, alt)
-
-
 --import Data.Session as Session exposing (Session)
 
-import View.Page as Page exposing (ActivePage)
+import Html exposing (Html, div, h1, main_, p, text)
+import Html.Attributes exposing (class, id, tabindex)
+import View.Page exposing (ActivePage)
 
 
 -- MODEL --
