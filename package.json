@@ -1,14 +1,13 @@
 {
-  "name": "elm-webpack-4-starter",
+  "name": "relmgmt",
   "version": "0.0.1",
-  "description": "Elm starter template with webpack 4",
+  "description": "Real State MGMT Elm App",
   "repository": {
     "type": "git",
-    "url": "https://github.com/romariolopezc/elm-webpack-4-starter"
+    "url": "https://github.com/ddcesare/relmgmt"
   },
   "contributors": [
-    "Romario Lopez <romariolopezc@gmail.com>",
-    "Geoffrey Roguelon <geoffrey.roguelon@gmail.com>"
+    "dd di cesare <didi@posteo.net>"
   ],
   "scripts": {
     "start": "webpack-dashboard -- webpack-dev-server --hot",
