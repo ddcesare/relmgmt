@@ -1,7 +1,7 @@
 {
     "version": "0.0.1",
-    "summary": "Elm starter template with Webpack 4",
-    "repository": "https://github.com/romariolopezc/elm-webpack-4-starter.git",
+    "summary": "Real State MGMT Elm App",
+    "repository": "https://github.com/ddcesare/relmgmt.git",
     "license": "MIT",
     "source-directories": [
         "src/elm"
